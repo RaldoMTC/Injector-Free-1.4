@@ -1,0 +1,17 @@
+{
+  "name": "c2-server",
+  "version": "1.0.0",
+  "description": "C2 Control Panel for Android Bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/kv": "^1.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
